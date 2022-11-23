@@ -1,0 +1,41 @@
+.thumb{
+    background-color: #fff;
+    Border:3px solid #999;
+    border-radius: 6px;
+    padding: 4px;
+}
+.l {
+    font-size: 3em;
+}
+.p {
+    text-align: center;
+    font-size: 5em;
+}
+.botao{ 
+    text-decoration: none;
+    padding: 3px 9px;
+    border-radius: 8px;
+    background-color: #eeeeee;
+    color: #333333;
+    margin: 3px 6px;
+}
+.botao:hover{
+    background-color: #fd8383;
+}
+.direita{
+    float: right;
+}
+
+.flex{
+    display: flex;
+
+}
+.fd{ 
+    justify-content: flex-end;
+} 
+.fc{
+    justify-content: center;
+}
+.fsa{
+    justify-content: space-around;
+}
