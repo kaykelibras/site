@@ -7,16 +7,36 @@
 .l {
     font-size: 3em;
 }
+.princ{
+    font-size: 3em;
+}
 .p {
     text-align: center;
     font-size: 5em;
 }
+@media only screen and (max-width: 600px){
+    .l {
+        font-size: 1.6em;
+    }
+    .princ{
+        font-size: 1.6em;
+    }
+    .p {
+        text-align: center;
+        font-size: 2.6em;
+    }
+}
+
+
+
+
+
 .botao{ 
     text-decoration: none;
     padding: 3px 9px;
     border-radius: 8px;
-    background-color: #eeeeee;
-    color: #333333;
+    background-color: #aecbec;
+    color: #000000;
     margin: 3px 6px;
 }
 .botao:hover{
@@ -38,4 +58,28 @@
 }
 .fsa{
     justify-content: space-around;
+}
+.fsb{
+    justify-content: space-between;
+}
+
+
+
+.borda{
+    border: solid 2px rgb(78, 163, 184);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em 2em;
+
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3em;
+    box-shadow: 12px 12px 15px 5px rgb(0, 0, 0);
+}
+
+.centro{
+    /* CENTRO */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
